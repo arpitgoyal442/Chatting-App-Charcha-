@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_700"
+
+    android:elevation="10dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutCardView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/img_Cardview"
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/begin" />
+
+        <TextView
+            android:id="@+id/name_CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_Cardview"
+            android:text="Time T"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/des_cardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="15dp"
+            android:text="Click to chat"
+
+
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

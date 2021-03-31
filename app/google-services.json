@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243041002642",
+    "project_id": "charcha-b318d",
+    "storage_bucket": "charcha-b318d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243041002642:android:abe66340a7716e0ec6324b",
+        "android_client_info": {
+          "package_name": "com.whatever.charcha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243041002642-eofbaenem0k0ral9no90irdchdrlre14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEqhMxp5bkCaYdy2AFI0volgx70tXbhrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243041002642-eofbaenem0k0ral9no90irdchdrlre14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
